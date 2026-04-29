@@ -17,6 +17,8 @@ function toggleTask(index) {
     renderTasks();
 }
 
+// MENAMBAH FUNCTION UNTUK UPDATE COUNTER SETIAP RENDER TASKS
+
 function renderTasks() {
     taskList.innerHTML = '';
     tasks.forEach((task, index) => {
